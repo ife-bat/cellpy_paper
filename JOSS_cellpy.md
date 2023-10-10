@@ -81,7 +81,7 @@ The `cellpy` library also consists of a rich set of utilities (\autoref{fig:4}) 
 
 # Acknowledgements
 
-The development of `cellpy` was supported by the Research Council of Norway through the ENERGIX Project No. 280985 ("KPN Silicon on the Road"), ("KSP MoreIsLess"),  ("SiBEC"), ("SecondLife"), ("LongLife"), performed within MoZEES, a Norwegian Centre for Environment-friendly Energy Research (FME), co-sponsored by the Research Council of Norway (project number 257653) and 40 partners from research, industry, and the public sector, and the Horizion Europe project "SIMBA" xxxx.
+The development of `cellpy` was supported by the Research Council of Norway through the ENERGIX Projects No. 280985 ("KPN Silicon on the Road"), No. 324077 ("KSP MoreIsLess"),  No. 320760 ("KSP SecondLife"), No. 326866 ("KSP LongLife"), No. 344317 ("KSP CellMap), and performed within MoZEES, a Norwegian Centre for Environment-friendly Energy Research (FME), co-sponsored by the Research Council of Norway (project number 257653) and 40 partners from research, industry, and the public sector. The development was also supported through the European Union (EU)-funded SIMBA project, in the frame of HORIZON 2020 (GA No. 963542).
 
 The authors are thankful to the noumerous inputs and comments from our collegueas and collaborators, and in particular Dr. Preben J.S. Vie and Dr. Martin Kirkengen.
 
