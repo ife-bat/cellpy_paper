@@ -1,4 +1,6 @@
+name: joss pdf
 on: [push]
+  workflow_dispatch:
 
 jobs:
   paper:
