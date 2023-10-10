@@ -50,7 +50,7 @@ The python library `cellpy` aims to assist in elevating these problems by
 
 The python library `cellpy` provides powerful and versatile tools for the simple and efficient handling of battery testing data originating from different battery cell testers.
 
-Typically, a battery-testing data set consists of time series data with voltage ($V$), current ($I$) and capacity ($Q$). Most cell cycling instruments provide these data in a format which is straightforward to plot and adjust. However, cell tests often contain a lot of other information which can be extracted with reference to additional parameters, such as e.g., charge rate, response time and in some cases external information like cell temperature. 
+Typically, a battery-testing data set consists of time series data with voltage ($V$), current ($I$) and capacity ($Q$). Most cell cycling instruments provide these data in a format which is straightforward to plot and adjust. However, cell tests often contain a lot of other information which can be extracted with reference to additional parameters, such as e.g., charge rate, response time and in some cases external information like cell temperature.
 
 The most common way of structuring battery data is to split the time series data into so-called battery cycles (charge & discharge). Each cycle usually consists of several steps, where for example the current can be constant in one step, and zero in the next step. \autoref{fig:1} illustrates a typical data set containing one full cycle (“cycle”) consisting of four steps (“s1” to “s4”). By looking at specific cycles or steps, the battery researcher can for example interpret how the internal resistance in the battery develops over time or infer something about the internal kinetics in the battery cell.
 
