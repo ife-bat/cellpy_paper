@@ -81,5 +81,8 @@ The `cellpy` library also consists of a rich set of utilities (\autoref{fig:4}) 
 
 # Acknowledgements
 
+The development of `cellpy` was supported by the following projects: "KPN Silicon on the Road" Research Council of Norway (RCN), project number xxxx, , "KSP MoreIsLess", RCN project number XXX, "SiBEC", "SIMBA", "SecondLife", "MoZEES", "LongLife",
+
+The authors are thankful to the noumerous inputs and comments from our collegueas and collaborators, and in particular Dr. Preben J.S. Vie.
 
 # References
