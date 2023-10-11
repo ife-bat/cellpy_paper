@@ -36,7 +36,7 @@ date: 10 October 2023
 bibliography: paper.bib
 ---
 
-# Summary
+## Summary
 
 Recent years have witnessed an exponential increase in battery research, driven by the need to develop efficient and sustainable energy storage systems. One of the main tools in battery research are battery cycling experiments, providing insights into performance lifetime and quality of the battery. Due to the large variety of battery testing equipment and the resulting multitude of different and often proprietary data formats, combined with the large number of parameters involved, managing and processing battery testing data has often been a difficult and tedious task.
 
@@ -46,7 +46,7 @@ The Python library `cellpy` assists in solving these problems by
 2. converting those into one common data format that also includes relevant battery-specific meta-data, and
 3. providing a data structure equipped with a set of methods that helps the user to easily perform simple and in-depth analysis of both single data sets and collections of data sets.
 
-# Statement of need
+## Statement of need
 
 Typically, a battery-testing data set consists of simple time series data with voltage, current and capacity. <!--- The most common way of structuring battery data is to split the time series data into so-called battery cycles(charge & discharge), where each cycle consists of several steps. \autoref{fig:1} illustrates a typical data set containing one full cycle consisting of four steps (“s1” to “s4”). Analysing individual cycles and steps allows to gain a detailed understanding of the battery cell. ![Illustration of battery cell test data.\label{fig:1}](./Figures/Cell-test-data.jpg) -->
 However, data from different equipment are measured and handled in different ways and stored in different, often proprietary formats. Consequently, a direct and meaningful comparison of several cells tested under a variety of conditions can be challenging and requires more advanced data handling methodologies.
@@ -56,7 +56,7 @@ Several open-source libraries focus on battery test-data extraction. However, mo
 
 The `cellpy` library provides a valuable toolset and has been in frequent use for both, everyday and advanced tasks in battery research. The ability to effortlessly import and process the data through a simple but highly flexible API allows for quick and simple comparison of different cells in everyday battery research. At the same time, `cellpy` functions as an excellent starting point for researchers leaning towards advanced analysis: `cellpy` can automatically convert data with different units, summarize and perform statistical evaluations all the way down to the individual cycle and step level, while giving the user fine-grained control of the behaviour through setting parameters or directly by using a more advanced, deeper API. This eases further use of the data e.g., as features for machine learning algorithm, and promotes reproducibility and traceability throughout the entire process.
 
-# Implementation and architecture
+## Implementation and architecture
 
 `cellpy` is implemented in python and can be used as either a library within python scripts, or as a stand-alone application for analysing battery cell test data. Internally, `cellpy` utilises the rich ecosystem of scientific tools available for python. In particular, `cellpy` uses pandas DataFrames as the “storage containers” for the collected data within the `cellpy` Data object. This offers full flexibility and makes it easy for the user to apply advanced methods, analyses or transformations of and to the data in addition to the features implemented in `cellpy`.
 
@@ -78,10 +78,10 @@ The `cellpy` library also consists of a rich set of utilities (\autoref{fig:4}) 
 
 ![The `cellpy` library contains multiple utilities that assists in data analysis. A utility can work on (A) - a single **CellpyCell** object, or (B) – a set of CellpyCell objects such as the Batch utility that helps the user in automating and comparing results from many data sets.\label{fig:4}](Figures/Cellpy-Utils.jpg)
 
-# Acknowledgements
+## Acknowledgements
 
-The development of `cellpy` was supported by the Research Council of Norway through the ENERGIX Projects No. 280985 ("KPN Silicon on the Road"), No. 324077 ("KSP MoreIsLess"),  No. 320760 ("KSP SecondLife"), No. 326866 ("KSP LongLife"), No. 344317 ("KSP CellMap), and FME-MoZEES, co-sponsored by the Research Council of Norway (project No. 257653) and 40 partners from research, industry, and the public sector. The development was also supported through the European Union (EU)-funded SIMBA project, in the frame of HORIZON 2020 (GA No. 963542).
+The development of `cellpy` was supported by the Research Council of Norway through the ENERGIX Projects No. 280985 ("KPN Silicon on the Road"), No. 324077 ("KSP MoreIsLess"),  No. 320760 ("KSP SecondLife"), No. 326866 ("KSP LongLife"), No. 344317 ("KSP CellMap), and FME-MoZEES, co-sponsored by the Research Council of Norway (project No. 257653) and 40 partners from research, industry, and the public sector. The development was also supported through the EU-funded SIMBA project, in the frame of HORIZON 2020 (GA No. 963542).
 
 The authors are thankful to the numerous inputs and comments from our colleagues and collaborators, and in particular Dr. Preben J.S. Vie and Dr. Martin Kirkengen.
 
-# References
+## References
